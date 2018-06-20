@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}
+TimePylon - Arbeitszeiten online, ohne Excel
+{% endblock %}
+
+{% block content %}
+    <article xmlns:width="http://www.w3.org/1999/xhtml">
+        <header>
+            {% if current_user.is_authenticated %}
+                <h1>Moin moin, {{ current_user.username }}!</h1>
+            {% else %}
+                <h1>Moin moin!</h1>
+            {% endif %}
+            <p>Dies ist ein (hoffentlich) einfaches Tool zum Dokumentieren deiner Arbeitszeiten.</p>
+        </header>
+            {% with entries=entries %}
+                {% include "listofentries.html" %}
+            {% endwith %}
+        <section>
+            <h2>article section h2</h2>
+            <p>lalalolo lo la lo</p>
+        </section>
+
+    </article>
+{% endblock %}

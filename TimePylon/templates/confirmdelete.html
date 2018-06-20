@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% from "form_macros.html" import render_field %}
+
+{% block title %}
+TimePylon - {{ title }}
+{% endblock %}
+
+{% block content %}
+        <section>
+            <h1>{{ title }}</h1>
+            <form action="" method="post">
+                <p>Soll der folgende Eintrag wirklich gelöscht werden?</p>
+                    <table id="maintableentries">
+                        <tr>
+                            <th>Datum</th>
+                            <th>Beginn</th>
+                            <th>Ende</th>
+                            <th>Pause</th>
+                            <th>Kommentar</th>
+                            <th>Zeit gearbeitet</th>
+                        </tr>
+                        <tr>
+                            <td>{{ entry.date }}</td>
+                            <td>{{ entry.start}}</td>
+                            <td>{{ entry.end }}</td>
+                            <td>{{ entry.pause }}</td>
+                            <td>{{ entry.comment }}</td>
+                            <td>{{ entry.time_worked() }}</td>
+                        </tr>
+                    </table>
+                <a href="{{ url_for("index") }}">
+                    <button type="button">Nein, lieber nicht.</button>
+                </a>
+                <button type="submit">Ja, bitte löschen!</button>
+             </form>
+        </section>
+
+{% endblock %}
+
+{% block sidebar %}
+{% endblock %}

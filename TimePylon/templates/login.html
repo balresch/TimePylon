@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% from "form_macros.html" import render_field %}
+
+{% block title %}
+TimePylon - Login
+{% endblock %}
+
+{% block content %}
+    <article xmlns:width="http://www.w3.org/1999/xhtml" xmlns:clear="http://www.w3.org/1999/xhtml">
+        <header>
+            <h1>Moin moin!</h1>
+            <p>Dies ist ein (hoffentlich) einfaches Tool zum Dokumentieren deiner Arbeitszeiten.</p>
+        </header>
+        <section>
+            <h1 style="clear:both">Bitte gib hier deine Logindaten ein:</h1>
+            <form action="" method="post">
+                {{ form.hidden_tag() }}
+                <table>
+                    {{ render_field(form.username, size=50) }}
+                    {{ render_field(form.password, size=50) }}
+                    {{ render_field(form.remember_me) }}
+                    {{ render_field(form.submit) }}
+                </table>
+            </form>
+        </section>
+
+    </article>
+{% endblock %}

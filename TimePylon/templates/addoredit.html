@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% from "form_macros.html" import render_field %}
+
+{% block title %}
+TimePylon - {{ title }}
+{% endblock %}
+
+{% block content %}
+        <section>
+            <h1>{{ title }}</h1>
+            <form action="" method="post">
+                {{ form.hidden_tag() }}
+                <p>Bitte gib die Details deiner Arbeitszeiten ein: </p>
+                <table>
+                    {{ render_field(form.date, size=50) }}
+                    {{ render_field(form.start, size=50) }}
+                    {{ render_field(form.end, size=50) }}
+                    {{ render_field(form.pause, size=50) }}
+                    {{ render_field(form.comment, size=50) }}
+                </table>
+
+                <button type="submit">Okay</button>
+             </form>
+        </section>
+
+{% endblock %}
+
+{% block sidebar %}
+{% endblock %}

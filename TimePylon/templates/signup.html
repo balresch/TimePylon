@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% from "form_macros.html" import render_field %}
+
+{% block title %}
+TimePylon - Neuer User
+{% endblock %}
+
+{% block content %}
+        <section>
+            <form action="" method="post">
+                {{ form.hidden_tag() }}
+                <h1>Anmelden</h1>
+                <p>Bitte gib deine gewünschten Logindaten ein: </p>
+                <table>
+                    {{ render_field(form.username, size=50) }}
+                    {{ render_field(form.password, size=50) }}
+                    {{ render_field(form.password2, size=50) }}
+                    {{ render_field(form.email, size=50) }}
+                </table>
+
+                <button type="submit">Okay</button>
+             </form>
+        </section>
+
+{% endblock %}
+
+{% block sidebar %}
+{% endblock %}
