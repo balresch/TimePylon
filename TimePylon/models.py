@@ -24,12 +24,16 @@ class Entry(db.Model):
     def return_all():
         return Entry.query.order_by(desc(Entry.date)).all()
 
+    @staticmethod
+    def return_from(user_id):
+        return Entry.query.filter_by(user_id=user_id).order_by(Entry.date).all()
+
     def time_worked(self):
         time1 = datetime.combine(date.today(), self.start)
         time2 = datetime.combine(date.today(), self.end)
         pause = timedelta(minutes=int(self.pause))
         result = time2 - time1 - pause
-        return result.__str__()
+        return result
 
 
 class User(db.Model, UserMixin):

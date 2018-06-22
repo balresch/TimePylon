@@ -1,23 +1,42 @@
+from datetime import timedelta
+
 from flask import render_template
 from flask_login import current_user
 
 from . import main
 from .. import login_manager
 from ..models import User, Entry
+from .forms import DatepickForm
 
 @login_manager.user_loader
 def load_user(userid):
     return User.query.get(int(userid))
 
 
-@main.route('/')
-@main.route('/index')
+@main.route('/', methods=["GET", "POST"])
+@main.route('/index', methods=["GET", "POST"])
 def index():
-    if current_user.is_authenticated:
-        entries = Entry.query.filter_by(user_id=current_user.id).order_by(Entry.date).all()
+    hits = []
+    sum = timedelta()
+    datepickform = DatepickForm()
+    is_logged_in = current_user.is_authenticated
+
+    if is_logged_in:
+        entries = Entry.return_from(current_user.id)
+
     else:
         entries = []
-    return render_template("index.html", entries=entries)
+
+    if datepickform.validate_on_submit():
+        month = datepickform.datepick.data.month
+        for entry in entries:
+            if month == entry.date.month:
+                hits.append(entry)
+        entries = hits
+    for entry in entries:
+        sum += entry.time_worked()
+    sum = int(sum.total_seconds()/3600)
+    return render_template("index.html", entries=entries, form=datepickform, is_logged_in=is_logged_in, sum=sum)
 
 
 @main.app_errorhandler(404)

@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "form_macros.html" import render_field, month_select %}
 
 {% block title %}
 TimePylon - Arbeitszeiten online, ohne Excel
@@ -7,20 +8,24 @@ TimePylon - Arbeitszeiten online, ohne Excel
 {% block content %}
     <article xmlns:width="http://www.w3.org/1999/xhtml">
         <header>
-            {% if current_user.is_authenticated %}
+            {% if is_logged_in %}
                 <h1>Moin moin, {{ current_user.username }}!</h1>
             {% else %}
                 <h1>Moin moin!</h1>
+                <p>Dies ist ein (hoffentlich) einfaches Tool zum Dokumentieren deiner Arbeitszeiten.</p>
             {% endif %}
-            <p>Dies ist ein (hoffentlich) einfaches Tool zum Dokumentieren deiner Arbeitszeiten.</p>
         </header>
-            {% with entries=entries %}
-                {% include "listofentries.html" %}
-            {% endwith %}
-        <section>
-            <h2>article section h2</h2>
-            <p>lalalolo lo la lo</p>
-        </section>
+            {% if is_logged_in %}
+                {% with entries=entries, form=form %}
+                    {% if form %}
+                        {{ month_select(form) }}
+                    {% endif %}
+                    {% include "listofentries.html" %}
+                {% endwith %}
+
+            {% else %}
+                <p>Du musst dich erst einloggen. Solltest du noch keinen Account haben, so kannst du dich zuvor registrieren.</p>
+            {% endif %}
 
     </article>
 {% endblock %}

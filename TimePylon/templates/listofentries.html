@@ -7,9 +7,10 @@
             <th>Pause</th>
             <th>Kommentar</th>
             <th>Zeit gearbeitet</th>
-            <th></th>
-            <th></th>
+            <th>        </th>
+            <th>        </th>
         </tr>
+
         {% for entry in entries %}
             <tr>
                 <td>{{ entry.date }}</td>
@@ -17,10 +18,14 @@
                 <td>{{ entry.end }}</td>
                 <td>{{ entry.pause }}</td>
                 <td>{{ entry.comment }}</td>
-                <td>{{ entry.time_worked() }}</td>
+                <td>{{ entry.time_worked().__str__() }}</td>
                 <td><a href="{{ url_for("entries.edit_entry", entry_id=entry.id) }}">bearbeiten</a></td>
                 <td><a href="{{ url_for("entries.delete_entry", entry_id=entry.id) }}">löschen</a></td>
             </tr>
         {% endfor %}
+
     </table>
+
+
+<p>Time worked: {{ sum }}</p>
 </section>

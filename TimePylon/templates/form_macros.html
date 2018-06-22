@@ -9,3 +9,17 @@
         </ul></td>
     </tr>
 {% endmacro %}
+
+{% macro month_select(form) %}
+    <form action="" method="post">
+        {{ form.hidden_tag() }}
+        <table>
+            </tr>
+                <tr>
+                    <td>{{ render_field(form.datepick, size=50) }}</td>
+                    <td>{{ render_field(form.submit, size=50) }}</td>
+                    <td> </td>
+                </tr>
+        </table>
+    </form>
+{% endmacro %}
