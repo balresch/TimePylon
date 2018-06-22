@@ -1,4 +1,13 @@
 """
+To simply run:
+> python manage_db_helper.py runserver
+
+To populate empty db with test data:
+> python manage_db_helper.py addtestdata
+
+
+
+Migrating options for db:
 > python manage_db_helper.py db init
     initializes flask_migrate (already done)
 > python manage_db_helper.py db migrate -m "migrate name"
