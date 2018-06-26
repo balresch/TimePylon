@@ -9,6 +9,7 @@ TimePylon - {{ title }}
         <section>
             <h1>{{ title }}</h1>
             <form action="" method="post">
+                {{ form.hidden_tag() }}
                 <p>Soll der folgende Eintrag wirklich gelöscht werden?</p>
                     <table id="maintableentries">
                         <tr>
