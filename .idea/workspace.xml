@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd8badb-5ee9-4c71-9ffc-4d81695883e2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TimePylon/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cadad8d8-0fe9-46dd-8ac4-04933401b084.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cadad8d8-0fe9-46dd-8ac4-04933401b084.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TimePylon/TimePylon.db" beforeDir="false" afterPath="$PROJECT_DIR$/TimePylon/TimePylon.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimePylon/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TimePylon/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimePylon/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TimePylon/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimePylon/templates/form_macros.html" beforeDir="false" afterPath="$PROJECT_DIR$/TimePylon/templates/form_macros.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimePylon/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TimePylon/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimePylon/templates/listofentries.html" beforeDir="false" afterPath="$PROJECT_DIR$/TimePylon/templates/listofentries.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimePylon/data-test.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/TimePylon/data-test.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TimePylon_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/TimePylon_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,10 +16,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TimePylon_Flask$Unittests_for_TimePylon_test_TimePylonTestCase_testLogin.coverage" NAME="Unittests for TimePylon_test.TimePylonTestCase.testLogin Coverage Results" MODIFIED="1531389110635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/TimePylon_Flask$Unittests_in_TimePylon_test_py.coverage" NAME="Unittests in TimePylon_test.py Coverage Results" MODIFIED="1531384445831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/TimePylon_Flask$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1529052188044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/TimePylon_Flask$views.coverage" NAME="views Coverage Results" MODIFIED="1529272659371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TimePylon" />
+    <SUITE FILE_PATH="coverage/TimePylon_Flask$Unittests_for_TimePylon_test_TimePylonTestCase.coverage" NAME="Unittests for TimePylon_test.TimePylonTestCase Coverage Results" MODIFIED="1531385509828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/TimePylon_Flask$manage_db_helper.coverage" NAME="manage_db_helper Coverage Results" MODIFIED="1529068495132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TimePylon_Flask$Unittests_for_TimePylon_test_TimePylonTestCase_test_setup.coverage" NAME="Unittests for TimePylon_test.TimePylonTestCase.test_setup Coverage Results" MODIFIED="1531387175362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/TimePylon_Flask$app.coverage" NAME="app Coverage Results" MODIFIED="1529007672249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TimePylon_Flask$Unittests_for_TimePylon_test_TimePylonTestCase_test_edit_entry.coverage" NAME="Unittests for TimePylon_test.TimePylonTestCase.test_edit_entry Coverage Results" MODIFIED="1531386626474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -42,6 +44,17 @@
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="data-test.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="data-test.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="TimePylon.db" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
@@ -54,19 +67,55 @@
         <item name="TimePylon.db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="TimePylon.db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-        <item name="entry: table" type="ffe0bd85:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="manage_db_helper.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manage_db_helper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+              <folding>
+                <element signature="e#691#727#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TimePylon/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TimePylon/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TimePylon/auth/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="e#0#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,12 +162,10 @@
         <option value="$PROJECT_DIR$/TimePylon/static/css/main.css" />
         <option value="$PROJECT_DIR$/TimePylon/templates/addoredit.html" />
         <option value="$PROJECT_DIR$/TimePylon/templates/403.html" />
-        <option value="$PROJECT_DIR$/TimePylon/templates/confirmdelete.html" />
         <option value="$PROJECT_DIR$/TimePylon/auth/__init__.py" />
         <option value="$PROJECT_DIR$/TimePylon/auth/forms.py" />
         <option value="$PROJECT_DIR$/TimePylon/forms.py" />
         <option value="$PROJECT_DIR$/TimePylon/views.py" />
-        <option value="$PROJECT_DIR$/TimePylon/__init__.py" />
         <option value="$PROJECT_DIR$/TimePylon/main/__init__.py" />
         <option value="$PROJECT_DIR$/TimePylon/entries/__init__.py" />
         <option value="$PROJECT_DIR$/TimePylon/entries/views.py" />
@@ -129,10 +176,13 @@
         <option value="$PROJECT_DIR$/TimePylon/templates/monthselect.html" />
         <option value="$PROJECT_DIR$/TimePylon/templates/form_macros.html" />
         <option value="$PROJECT_DIR$/TimePylon/main/forms.py" />
-        <option value="$PROJECT_DIR$/TimePylon/models.py" />
         <option value="$PROJECT_DIR$/TimePylon/main/views.py" />
         <option value="$PROJECT_DIR$/TimePylon/templates/index.html" />
         <option value="$PROJECT_DIR$/TimePylon/templates/listofentries.html" />
+        <option value="$PROJECT_DIR$/TimePylon/models.py" />
+        <option value="$PROJECT_DIR$/TimePylon/templates/confirmdelete.html" />
+        <option value="$PROJECT_DIR$/TimePylon/__init__.py" />
+        <option value="$PROJECT_DIR$/test/TimePylon_test.py" />
       </list>
     </option>
   </component>
@@ -146,11 +196,12 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1944" />
-    <option name="height" value="1044" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -160,48 +211,45 @@
         <subPane>
           <expand>
             <path>
-              <item name="TimePylon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimePylon_Flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimePylon_Flask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TimePylon_Flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimePylon_Flask" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TimePylon_Flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimePylon_Flask" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TimePylon_Flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimePylon_Flask" type="462c0819:PsiDirectoryNode" />
               <item name="TimePylon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TimePylon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TimePylon" type="462c0819:PsiDirectoryNode" />
-              <item name="TimePylon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TimePylon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TimePylon" type="462c0819:PsiDirectoryNode" />
+              <item name="TimePylon_Flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimePylon_Flask" type="462c0819:PsiDirectoryNode" />
               <item name="TimePylon" type="462c0819:PsiDirectoryNode" />
               <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TimePylon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TimePylon" type="462c0819:PsiDirectoryNode" />
+              <item name="TimePylon_Flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimePylon_Flask" type="462c0819:PsiDirectoryNode" />
               <item name="TimePylon" type="462c0819:PsiDirectoryNode" />
               <item name="entries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TimePylon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TimePylon" type="462c0819:PsiDirectoryNode" />
+              <item name="TimePylon_Flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimePylon_Flask" type="462c0819:PsiDirectoryNode" />
               <item name="TimePylon" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TimePylon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TimePylon" type="462c0819:PsiDirectoryNode" />
-              <item name="TimePylon" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TimePylon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TimePylon" type="462c0819:PsiDirectoryNode" />
-              <item name="TimePylon" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TimePylon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TimePylon" type="462c0819:PsiDirectoryNode" />
+              <item name="TimePylon_Flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimePylon_Flask" type="462c0819:PsiDirectoryNode" />
               <item name="TimePylon" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -246,78 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.views">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TimePylon_Flask" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\balresch\AppData\Local\Programs\Python\Python36-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\balresch\Desktop\TimePylon_Flask\TimePylon\app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="manage_db_helper" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TimePylon_Flask" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage_db_helper.py" />
-      <option name="PARAMETERS" value="runserver" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TimePylon_Flask" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TimePylon" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TimePylon/views.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Flask" type="Python.FlaskServer" factoryName="Flask server" temporary="true" nameIsGenerated="true">
-      <module name="TimePylon_Flask" />
-      <option name="target" value="$PROJECT_DIR$/TimePylon/app.py" />
-      <option name="targetType" value="PATH" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for TimePylon_test.TimePylonTestCase.testLogin">
     <configuration name="TimePylon_Flask" type="Python.FlaskServer" factoryName="Flask server">
       <module name="TimePylon_Flask" />
       <option name="target" value="$PROJECT_DIR$/TimePylon/app.py" />
@@ -332,18 +309,91 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="launchJavascriptDebuger" value="false" />
     </configuration>
+    <configuration name="Unittests for TimePylon_test.TimePylonTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="TimePylon_Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TimePylon_test.TimePylonTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for TimePylon_test.TimePylonTestCase.testLogin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="TimePylon_Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TimePylon_test.TimePylonTestCase.testLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for TimePylon_test.TimePylonTestCase.test_edit_entry" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="TimePylon_Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TimePylon_test.TimePylonTestCase.test_edit_entry&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for TimePylon_test.TimePylonTestCase.test_setup" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="TimePylon_Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TimePylon_test.TimePylonTestCase.test_setup&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in TimePylon_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="TimePylon_Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/TimePylon_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <list>
       <item itemvalue="Flask server.TimePylon_Flask" />
-      <item itemvalue="Flask server.Flask" />
-      <item itemvalue="Python.app" />
-      <item itemvalue="Python.manage_db_helper" />
-      <item itemvalue="Python.views" />
+      <item itemvalue="Python tests.Unittests in TimePylon_test.py" />
+      <item itemvalue="Python tests.Unittests for TimePylon_test.TimePylonTestCase.test_edit_entry" />
+      <item itemvalue="Python tests.Unittests for TimePylon_test.TimePylonTestCase" />
+      <item itemvalue="Python tests.Unittests for TimePylon_test.TimePylonTestCase.test_setup" />
+      <item itemvalue="Python tests.Unittests for TimePylon_test.TimePylonTestCase.testLogin" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.views" />
-        <item itemvalue="Python.manage_db_helper" />
-        <item itemvalue="Python.app" />
+        <item itemvalue="Python tests.Unittests for TimePylon_test.TimePylonTestCase.testLogin" />
+        <item itemvalue="Python tests.Unittests for TimePylon_test.TimePylonTestCase.test_setup" />
+        <item itemvalue="Python tests.Unittests for TimePylon_test.TimePylonTestCase.test_edit_entry" />
+        <item itemvalue="Python tests.Unittests for TimePylon_test.TimePylonTestCase" />
+        <item itemvalue="Python tests.Unittests in TimePylon_test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +408,47 @@
       <option name="presentableId" value="Default" />
       <updated>1528884284430</updated>
     </task>
+    <task id="LOCAL-00001" summary="added flask-testing and created first test case">
+      <created>1530007726784</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530007726784</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_TimePylon_test_TimePylonTestCase_testLogin - 2018.07.12 at 11h 12m 32s.xml">
+      <configuration name="Unittests for TimePylon_test.TimePylonTestCase.testLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TimePylon_test_TimePylonTestCase_testLogin - 2018.07.12 at 11h 16m 06s.xml">
+      <configuration name="Unittests for TimePylon_test.TimePylonTestCase.testLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TimePylon_test_TimePylonTestCase_testLogin - 2018.07.12 at 11h 16m 21s.xml">
+      <configuration name="Unittests for TimePylon_test.TimePylonTestCase.testLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TimePylon_test_TimePylonTestCase_testLogin - 2018.07.12 at 11h 16m 36s.xml">
+      <configuration name="Unittests for TimePylon_test.TimePylonTestCase.testLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TimePylon_test_TimePylonTestCase_test_setup - 2018.07.12 at 11h 19m 36s.xml">
+      <configuration name="Unittests for TimePylon_test.TimePylonTestCase.test_setup" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TimePylon_test_TimePylonTestCase_testLogin - 2018.07.12 at 11h 19m 53s.xml">
+      <configuration name="Unittests for TimePylon_test.TimePylonTestCase.testLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TimePylon_test_TimePylonTestCase_testLogin - 2018.07.12 at 11h 20m 07s.xml">
+      <configuration name="Unittests for TimePylon_test.TimePylonTestCase.testLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TimePylon_test_TimePylonTestCase_testLogin - 2018.07.12 at 11h 21m 39s.xml">
+      <configuration name="Unittests for TimePylon_test.TimePylonTestCase.testLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TimePylon_test_TimePylonTestCase_testLogin - 2018.07.12 at 11h 21m 51s.xml">
+      <configuration name="Unittests for TimePylon_test.TimePylonTestCase.testLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TimePylon_test_TimePylonTestCase_testLogin - 2018.07.12 at 11h 51m 52s.xml">
+      <configuration name="Unittests for TimePylon_test.TimePylonTestCase.testLogin" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,28 +460,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1424" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32897604" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5001988" side_tool="true" weight="0.23602484" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.5474061" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32897604" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3206522" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.33385092" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.4998012" visible="true" weight="0.38586956" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49942195" visible="true" weight="0.42067593" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.4998012" visible="true" weight="0.2342048" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49942195" visible="true" weight="0.43017057" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="2" visible="true" weight="0.1809145" />
+      <window_info anchor="right" id="Database" order="2" weight="0.18070363" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info id="Structure" order="2" sideWeight="0.50057805" side_tool="true" weight="0.3499006" />
-      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39906833" />
+      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" id="R Graphics" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
       <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32897604" />
@@ -404,34 +496,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added flask-testing and created first test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="added flask-testing and created first test case" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://8b76a0d8-cbc8-42d2-b149-4c4005c9c64f/schema/main/table/user" />
-    <entry file="file://$PROJECT_DIR$/TimePylon/app.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a66b9eb8-aab1-416d-ae96-39f712634ce6/console.sql" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/sqlalchemy/ext/baked.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/sqlalchemy/orm/__init__.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="1220" selection-start-line="1220" selection-end-line="1220" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TimePylon/functions.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/werkzeug/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="291" column="8" selection-start-line="291" selection-start-column="8" selection-end-line="291" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/flask_login/login_manager.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/flask_login/utils.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/flask_login/mixins.py" />
     <entry file="file://$PROJECT_DIR$/TimePylon/templates/signup.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -481,21 +556,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TimePylon/templates/confirmdelete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TimePylon/templates/user.html" />
-    <entry file="file://$PROJECT_DIR$/TimePylon/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TimePylon/views.py" />
     <entry file="file://$PROJECT_DIR$/TimePylon/forms.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/flask_sqlalchemy/__init__.py">
@@ -534,43 +595,6 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cadad8d8-0fe9-46dd-8ac4-04933401b084/console.sql" />
-    <entry file="file://$PROJECT_DIR$/TimePylon/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#0#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TimePylon/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="66" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage_db_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="e#529#565#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TimePylon/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TimePylon/entries/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -585,9 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -612,13 +633,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TimePylon/templates/monthselect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TimePylon/templates/monthselect.html" />
     <entry file="file://$PROJECT_DIR$/TimePylon/templates/form_macros.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -647,20 +662,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TimePylon/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TimePylon/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TimePylon/main/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/flask/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="215" column="4" selection-start-line="215" selection-start-column="4" selection-end-line="215" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/flask_login/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="332" column="4" selection-start-line="332" selection-start-column="4" selection-end-line="332" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TimePylon/templates/confirmdelete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TimePylon/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -671,34 +718,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TimePylon/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+    <entry file="das://cadad8d8-0fe9-46dd-8ac4-04933401b084/schema/main/table/entry">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TimePylon/main/forms.py">
+    <entry file="das://cadad8d8-0fe9-46dd-8ac4-04933401b084/schema/main/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="197">
+          <caret line="442" column="8" selection-start-line="442" selection-start-column="8" selection-end-line="442" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TimePylon/entries/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="46" />
+        <state relative-caret-position="-102">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/flask_wtf/csrf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="129" column="8" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
+        <state relative-caret-position="17">
+          <caret line="168" column="8" selection-start-line="168" selection-start-column="8" selection-end-line="168" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/werkzeug/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="829" column="37" selection-start-line="829" selection-start-column="37" selection-end-line="829" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TimePylon/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TimePylon/auth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TimePylon_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/README">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TimePylon/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TimePylon/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TimePylon/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_db_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="e#691#727#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

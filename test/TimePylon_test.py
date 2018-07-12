@@ -23,21 +23,40 @@ class TimePylonTestCase(TestCase):
         self.db.session.add(entry)
         self.db.session.commit()
 
-        self.client.post(url_for("auth.login"),
-                         data = dict(username="test", password="test"))
+
+
 
     def tearDown(self):
         TimePylon.db.session.remove()
         TimePylon.db.drop_all()
 
-    def test_edit_entry(self):
-#        assert current_user.is_authenticated
-        response = self.client.post(
-            url_for("entries.edit_entry", entry_id=1),
-            data=dict(end=time(hour=18, minute=50)),
-            follow_redirects=True
-        )
-
-        assert response.status_code == 200
+    def test_setup(self):
         entry = Entry.query.first()
-#        assert entry.end.minute == 50
+        assert entry.end.minute == 45
+        assert entry.start.hour == 14
+        assert entry.date.year == 2018
+        user = User.query.first()
+        assert user.email == "test@example.com"
+
+
+    def testLogin(self):
+        with self.client:
+            response = self.client.post(url_for("auth.login"),
+                             data=dict(username="test", password="test"), follow_redirects=True)
+
+            self.assert_redirects(response, url_for("main.index"))
+
+#            assert current_user.is_authenticated
+
+
+    def test_edit_entry(self):
+
+            response = self.client.post(
+                url_for("entries.edit_entry", entry_id=1),
+                data=dict(end=time(hour=18, minute=50)),
+                follow_redirects=True
+            )
+
+            assert response.status_code == 200
+            entry = Entry.query.first()
+            assert entry.end.minute == 50
