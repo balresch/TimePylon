@@ -29,13 +29,14 @@ def index():
 
     if datepickform.validate_on_submit():
         month = datepickform.datepick.data.month
+        year = datepickform.datepick.data.year
         for entry in entries:
-            if month == entry.date.month:
+            if month == entry.date.month and year == entry.date.year:
                 hits.append(entry)
         entries = hits
     for entry in entries:
         sum += entry.time_worked()
-    sum = int(sum.total_seconds()/3600)
+    sum = float(sum.total_seconds()/3600)
     return render_template("index.html", entries=entries, form=datepickform, is_logged_in=is_logged_in, sum=sum)
 
 
